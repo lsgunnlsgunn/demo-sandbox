@@ -1,0 +1,93 @@
+# Project information
+site_name: DFINITY Developer Network
+site_description: DFINITY Developer Network
+site_author: DFINITY
+site_url: https://dfinity-labs.github.io/sdk-public
+
+# Copyright
+copyright: 'Copyright &copy; 2019. All rights reserved.'
+
+# Navigation
+nav:
+  - Welcome: index.md
+  - Introduction: introduction.md
+  - Before you begin: before-you-begin.md
+  - Prepare a local environment: prepare-dev-env.md
+  - Build executables: build-executables.md
+  - Start the client: start-the-client.md
+  - Send a request: send-a-request.md
+  - Remove the software: remove-software.md
+  - Questions or suggestions: contact-us.md
+
+# Configuration
+theme:
+  name: material
+  custom_dir: 'dev-theme-01'
+  language: 'en'
+  palette:
+    primary: 'black'
+    accent: 'black'
+  font:
+    text: 'Noto Sans'
+    code: 'Source Code Pro'
+    #code: 'Tangerine'
+  logo: 'global-images/logo-white-text.svg'
+  favicon: 'global-images/favicon.png'
+  feature:
+    tabs: false # change to true tp enable horizontal and vertical navigation
+  # 404 page
+  static_templates:
+    - 404.html
+
+extra:
+  social:
+    - type: 'discourse'
+      link: 'https://discourse.org/dfinity'
+    - type: 'github'
+      link: 'https://github.com/dfinity-labs'
+    - type: 'twitter'
+      link: 'https://twitter.com/dfinity'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/dfinity'
+    - type: 'medium'
+      link: 'https://medium.com/dfinity'
+    - type: 'telegram'
+      link: 'https://t.me/dfinity' 
+
+extra_css:
+  - 'stylesheets/extra.css'
+
+extra_javascript:
+  - 'javascripts/extra.js'
+
+# Markdown and Python Markdown Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: true
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: dfinity
+      repo: dfinity-lab 
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
