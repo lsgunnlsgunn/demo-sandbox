@@ -21,8 +21,8 @@ nav:
 
 # Configuration
 theme:
-  name: null
-  custom_dir: 'dev-theme-01'
+  name: material
+  custom_dir: 'dev-theme'
   language: 'en'
   palette:
     primary: 'black'
