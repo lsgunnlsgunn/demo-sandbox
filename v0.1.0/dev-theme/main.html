@@ -1,0 +1,27 @@
+
+  {% extends "base.html" %}
+  
+  {% block styles %}
+        <link rel="stylesheet" href="{{ 'global-css/application-new.css' | url }}">
+        {% if palette.primary or palette.accent %}
+          <link rel="stylesheet" href="{{ 'global-css/application-custom-palette.css' | url }}">
+        {% endif %}
+        {% if palette.primary %}
+          {% import "global-blocks/custom-palette.html" as map %}
+          {% set primary = map.primary(
+            palette.primary | replace(" ", "-") | lower
+          ) %}
+          <meta name="theme-color" content="{{ primary }}">
+        {% endif %}
+      {% endblock %}
+
+    
+    {% block footer %}
+      {% include "global-blocks/footer.html" %}
+    {% endblock %}
+
+{% block analytics %}
+    {% if config.google_analytics %}
+      {% include "global-blocks/integrations/analytics.html" %}
+    {% endif %}
+{% endblock %}
