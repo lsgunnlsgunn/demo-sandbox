@@ -21,7 +21,7 @@ nav:
 
 # Configuration
 theme:
-  name: material
+  name: null
   custom_dir: 'dev-theme-01'
   language: 'en'
   palette:
