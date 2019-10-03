@@ -1,3 +1,6 @@
 # Mac Temporary Files
 .DS_Store
 **/.DS_Store
+
+# Buide directory
+/site/

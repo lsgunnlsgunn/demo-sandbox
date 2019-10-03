@@ -1,5 +1,5 @@
 title: Questions or suggestions
-hero: Hello, World! demonstration (v0.1.0)
+hero: Welcome to the demonstration mini-site
 
 # Questions or suggestions?
 

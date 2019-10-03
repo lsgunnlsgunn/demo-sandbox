@@ -9,14 +9,25 @@ copyright: 'Copyright &copy; 2019. All rights reserved.'
 
 # Navigation
 nav:
-  - Welcome: index.md
-  - Introduction: introduction.md
-  - Before you begin: before-you-begin.md
-  - Prepare a local environment: prepare-dev-env.md
-  - Build executables: build-executables.md
-  - Start the client: start-the-client.md
-  - Send a request: send-a-request.md
-  - Remove the software: remove-software.md
+  - Demonstration site: 'index.md'
+  - Hello world (v0.1.0):
+    - Introduction: 'v0.1.0/introduction.md'
+    - Before you begin: 'v0.1.0/before-you-begin.md'
+    - Prepare a local environment: 'v0.1.0/prepare-dev-env.md'
+    - Build executables: 'v0.1.0/build-executables.md'
+    - Start the client: 'v0.1.0/start-the-client.md'
+    - Send a request: 'v0.1.0/send-a-request.md'
+    - Remove the software: 'v0.1.0/remove-software.md'
+  - Hello name (v0.2.0):
+    - Introduction: 'v0.2.0/hello-name.md'
+    - Before you begin: 'v0.2.0/before-you-begin-v2.md'
+    - Download the SDK: 'v0.2.0/download-sdk.md'
+    - Build the dfx executable: 'v0.2.0/build-dfx.md'
+    - Start the client locally: 'v0.2.0/start-client-locally.md'  
+    - Create WebAssembly canister: 'v0.2.0/create-wasm.md'
+    - Send an argument to the canister: 'v0.2.0/send-argument.md'
+    - View command-line usage: 'v0.2.0/view-usage-info.md'
+    - Remove the software: 'v0.2.0/remove-software-v2.md' 
   - Questions or suggestions: contact-us.md
 
 # Configuration
@@ -30,11 +41,10 @@ theme:
   font:
     text: 'Noto Sans'
     code: 'Source Code Pro'
-    #code: 'Tangerine'
   logo: 'global-images/logo-white-text.svg'
   favicon: 'global-images/favicon.png'
   feature:
-    tabs: false # change to true tp enable horizontal and vertical navigation
+    tabs: true # change to true for horizontal and vertical navigation
   # 404 page
   static_templates:
     - 404.html

@@ -1,0 +1,29 @@
+.md-logo img
+{
+    width: 84px;
+    height: 84px;
+    padding: 0px 0px 10px 0px;
+}
+
+/* Hide the right-side Table or contents on this page menu */
+nav.md-nav--secondary
+{
+    display: none;
+    /*margin-top: 50px;*/
+}
+
+header.md-header
+{
+    height: 80px;
+}
+
+div.md-hero
+{
+    
+}
+/*
+ul.md-tabs__list :first-child
+{
+    display: none;
+}
+*/
